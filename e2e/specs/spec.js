@@ -7,7 +7,7 @@ describe('Target tests execution', function () {
         browser.waitForAngularEnabled(false);
     });
 
-    it('launch browser and search for a product', function () {
+    fit('launch browser and search for a product', function () {
         targetPo.get();
         browser.driver.manage().window().maximize();
         targetPo.search('adidas');
